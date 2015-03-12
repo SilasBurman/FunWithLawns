@@ -54,14 +54,23 @@
         Console.WriteLine("Enter your company details:")
         Console.WriteLine()
         Console.Write("Company name: ")
-
         company.companyName = Console.ReadLine
 
-        Console.Write("Company owner: ")
 
+        Console.Write("Company owner: ")
         company.companyOwner = Console.ReadLine
 
-        Console.
+
+        Console.Write("Company contact number: ")
+        company.companyContactNumber = Console.ReadLine
+
+        Console.Write("Company address: ")
+        company.companyAddress = Console.ReadLine
+
+        Console.Write("Company hourly rate: ")
+        company.hourlyRate = Console.ReadLine
+
+
 
 
         Console.ReadLine()
